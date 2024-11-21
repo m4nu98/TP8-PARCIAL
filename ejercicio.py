@@ -67,7 +67,7 @@ def graficar_ventas(datos, sucursal='Todas'):
     if sucursal != 'Todas':
         datos = datos[datos['Sucursal'] == sucursal]
     
-    figura, grafico = plt.subplots(figsize=(12, 6))
+    figura, grafico = plt.subplots(figsize=(8, 6))
     
     ventas_mes = datos.groupby(['Año', 'Mes'])['Unidades_vendidas'].sum().reset_index()
     ventas_mes['Fecha'] = pd.to_datetime(ventas_mes['Año'].astype(str) + '-' + ventas_mes['Mes'].astype(str))
