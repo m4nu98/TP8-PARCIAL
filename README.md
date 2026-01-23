@@ -1,6 +1,10 @@
 # Análisis de Ventas Interactivo con Streamlit
 
 Aplicación web interactiva desarrollada para analizar datos de ventas de forma sencilla y visual. La herramienta permite a los usuarios cargar sus propios conjuntos de datos en formato CSV y obtener métricas y visualizaciones clave para entender el rendimiento de sus productos.
+link streamlit:https://tp8-parcial-medina-elias-manuel.streamlit.app/
+<img width="2549" height="1053" alt="image" src="https://github.com/user-attachments/assets/77397ccd-3de1-4980-9451-c17848d48135" />
+<video src="https://github.com/user-attachments/assets/2b15e5d3-ebd8-42ee-b844-cde271d0f4af" width="100%" controls>
+
 
 ## 🚀 Características
 
